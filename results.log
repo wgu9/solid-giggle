@@ -1,0 +1,41 @@
+root - INFO - Running churn_library_solution...
+root - INFO - Step 1: Data Import and Exploratory Data Analysis
+root - INFO - Importing data from ./data/bank_data.csv
+root - INFO - Data imported successfully and 'Churn' column created.
+root - INFO - Performing Exploratory Data Analysis (EDA)
+matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+root - INFO - EDA completed and figures saved in the images/eda folder.
+root - INFO - Step 1 completed.
+root - INFO - Step 2: Encoding and Feature Engineering
+root - INFO - Encoding categorical features.
+root - INFO - Categorical features encoded successfully.
+root - INFO - Performing feature engineering...
+root - INFO - Splitting data into training and test sets...
+root - INFO - Feature engineering completed.
+root - INFO - Step 2 completed.
+root - INFO - Step 3: Model Training
+root - INFO - Training models started.
+root - INFO - Training Random Forest Classifier...
+root - INFO - Random Forest training completed.
+root - INFO - Training Logistic Regression Classifier...
+root - INFO - Logistic Regression training completed.
+root - INFO - Training models completed.
+root - INFO - Saving trained models...
+root - INFO - Models saved.
+root - INFO - Step 3 completed.
+root - INFO - Step 4: Generating and Saving Classification Reports and ROC Curves
+root - INFO - Generating classification reports and ROC curves...
+root - INFO - Classification report for Random Forest saved.
+root - INFO - Classification report for Logistic Regression saved.
+root - INFO - ROC curve for Logistic Regression saved.
+root - INFO - ROC curve for Random Forest saved.
+root - INFO - Step 4 completed.
+root - INFO - Step 5: Generating and Saving Feature Importance Plot
+root - INFO - Creating and saving traditional feature importance plot.
+root - INFO - Traditional feature importance plot saved in images/feature_importance_traditional.png.
+root - INFO - Creating and saving SHAP feature importance plot.
+root - INFO - SHAP feature importance plot saved in images/feature_importance_shap.png.
+root - INFO - rfc_model feature importance plot saved.
+root - INFO - Step 5 completed.
+root - INFO - Script execution completed.

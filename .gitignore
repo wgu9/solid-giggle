@@ -1,0 +1,14 @@
+.venv
+# Ignore Mac system files
+.DS_Store
+**.DS_Store
+ch1-proj
+
+
+__pycache__/
+.pytest_cache/
+**/__pycache__/
+**/.pytest_cache/
+
+**/.ipynb_checkpoints
+**.ipynb_checkpoints
